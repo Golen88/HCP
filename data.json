@@ -1,0 +1,44 @@
+[
+    {
+        "kjonn":  "Mann",
+        "bane":  "Askim GK",
+        "layout":  "Gul 48",
+        "cr":  65.5,
+        "slope":  124
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Askim GK",
+        "layout":  "Rød 39",
+        "cr":  61.8,
+        "slope":  117
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Askim GK",
+        "layout":  "Orange 32",
+        "cr":  59.9,
+        "slope":  109
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Askim GK",
+        "layout":  "Gul 48",
+        "cr":  69.4,
+        "slope":  131
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Askim GK",
+        "layout":  "Rød 39",
+        "cr":  64,
+        "slope":  120
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Askim GK",
+        "layout":  "Orange 32",
+        "cr":  59.5,
+        "slope":  115
+    }
+]
