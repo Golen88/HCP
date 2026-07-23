@@ -5,17 +5,15 @@ let slopeData = [];
 const kjonnSelect = document.getElementById("kjonn");
 const baneSelect = document.getElementById("bane");
 const layoutSelect = document.getElementById("layout");
-const antallHullSelect = document.getElementById("antallHull");
+const antallHullInput = document.getElementById("antallHull");
+const hullToggleKnapper = document.querySelectorAll(".toggle-btn[data-hull]");
 const slagBruttoInput = document.getElementById("slagBrutto");
 const form = document.getElementById("hcp-form");
 
-const resultatSeksjon = document.getElementById("resultat");
 const resultatVerdi = document.getElementById("resultatVerdi");
-const detaljBane = document.getElementById("detaljBane");
-const detaljLayout = document.getElementById("detaljLayout");
-const detaljCr = document.getElementById("detaljCr");
-const detaljSlope = document.getElementById("detaljSlope");
-const detaljHull = document.getElementById("detaljHull");
+const resultatMeta = document.getElementById("resultatMeta");
+const metaBrutto = document.getElementById("metaBrutto");
+const metaHull = document.getElementById("metaHull");
 const feilmelding = document.getElementById("feilmelding");
 
 init();
@@ -71,8 +69,16 @@ baneSelect.addEventListener("change", () => {
 });
 
 layoutSelect.addEventListener("change", skjulResultat);
-antallHullSelect.addEventListener("change", skjulResultat);
 slagBruttoInput.addEventListener("input", skjulResultat);
+
+hullToggleKnapper.forEach((knapp) => {
+  knapp.addEventListener("click", () => {
+    hullToggleKnapper.forEach((k) => k.classList.remove("is-active"));
+    knapp.classList.add("is-active");
+    antallHullInput.value = knapp.dataset.hull;
+    skjulResultat();
+  });
+});
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -81,7 +87,7 @@ form.addEventListener("submit", (e) => {
   const valgtKjonn = kjonnSelect.value;
   const valgtBane = baneSelect.value;
   const valgtLayout = layoutSelect.value;
-  const antallHull = parseInt(antallHullSelect.value, 10);
+  const antallHull = parseInt(antallHullInput.value, 10);
   const slagBrutto = parseInt(slagBruttoInput.value, 10);
 
   if (!valgtKjonn || !valgtBane || !valgtLayout) {
@@ -102,7 +108,7 @@ form.addEventListener("submit", (e) => {
   }
 
   const hcp = beregnHcpSpiltTil(slagBrutto, rad.cr, rad.slope, antallHull);
-  visResultat(hcp, rad, antallHull);
+  visResultat(hcp, rad, antallHull, slagBrutto);
 });
 
 /*
@@ -131,18 +137,16 @@ function beregnHcpSpiltTil(slagBrutto, cr, slope, antallHull) {
   return Math.round(hcp);
 }
 
-function visResultat(hcp, rad, antallHull) {
-  resultatVerdi.textContent = hcp;
-  detaljBane.textContent = rad.bane;
-  detaljLayout.textContent = rad.layout;
-  detaljCr.textContent = rad.cr;
-  detaljSlope.textContent = rad.slope;
-  detaljHull.textContent = antallHull + " hull";
-  resultatSeksjon.hidden = false;
+function visResultat(hcp, rad, antallHull, slagBrutto) {
+  resultatVerdi.textContent = hcp.toLocaleString("nb-NO");
+  metaBrutto.textContent = "brutto " + slagBrutto;
+  metaHull.textContent = antallHull + " hull";
+  resultatMeta.hidden = false;
 }
 
 function skjulResultat() {
-  resultatSeksjon.hidden = true;
+  resultatVerdi.textContent = "–";
+  resultatMeta.hidden = true;
 }
 
 function visFeil(melding) {
