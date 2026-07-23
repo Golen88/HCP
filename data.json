@@ -96,5 +96,61 @@
         "layout":  "Brun",
         "cr":  65.2,
         "slope":  114
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Tjøme GK",
+        "layout":  "55",
+        "cr":  69.5,
+        "slope":  137
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Tjøme GK",
+        "layout":  "50",
+        "cr":  66.8,
+        "slope":  132
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Tjøme GK",
+        "layout":  "44",
+        "cr":  64.3,
+        "slope":  126
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Tjøme GK",
+        "layout":  "32",
+        "cr":  60.8,
+        "slope":  116
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Tjøme GK",
+        "layout":  "55",
+        "cr":  75.4,
+        "slope":  141
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Tjøme GK",
+        "layout":  "50",
+        "cr":  72.1,
+        "slope":  134
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Tjøme GK",
+        "layout":  "44",
+        "cr":  68.9,
+        "slope":  127
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Tjøme GK",
+        "layout":  "32",
+        "cr":  61.6,
+        "slope":  115
     }
 ]
