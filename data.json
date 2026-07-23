@@ -40,5 +40,61 @@
         "layout":  "Orange 32",
         "cr":  59.5,
         "slope":  115
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Mørk GK",
+        "layout":  "Gul",
+        "cr":  71.5,
+        "slope":  134
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Mørk GK",
+        "layout":  "Blå",
+        "cr":  69.3,
+        "slope":  129
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Mørk GK",
+        "layout":  "Rød",
+        "cr":  67.8,
+        "slope":  126
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Mørk GK",
+        "layout":  "Brun",
+        "cr":  64,
+        "slope":  114
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Mørk GK",
+        "layout":  "Gul",
+        "cr":  76.9,
+        "slope":  133
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Mørk GK",
+        "layout":  "Blå",
+        "cr":  73.9,
+        "slope":  128
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Mørk GK",
+        "layout":  "Rød",
+        "cr":  72.1,
+        "slope":  125
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Mørk GK",
+        "layout":  "Brun",
+        "cr":  65.2,
+        "slope":  114
     }
 ]
