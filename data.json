@@ -152,5 +152,75 @@
         "layout":  "32",
         "cr":  61.6,
         "slope":  115
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Hakadal GK",
+        "layout":  "61",
+        "cr":  72.5,
+        "slope":  144
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Hakadal GK",
+        "layout":  "57",
+        "cr":  69.9,
+        "slope":  139
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Hakadal GK",
+        "layout":  "51",
+        "cr":  66.9,
+        "slope":  131
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Hakadal GK",
+        "layout":  "47",
+        "cr":  65.2,
+        "slope":  129
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Hakadal GK",
+        "layout":  "28",
+        "cr":  55,
+        "slope":  109
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Hakadal GK",
+        "layout":  "61",
+        "cr":  78.8,
+        "slope":  148
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Hakadal GK",
+        "layout":  "57",
+        "cr":  76,
+        "slope":  139
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Hakadal GK",
+        "layout":  "51",
+        "cr":  71.9,
+        "slope":  134
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Hakadal GK",
+        "layout":  "47",
+        "cr":  70.1,
+        "slope":  128
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Hakadal GK",
+        "layout":  "28",
+        "cr":  59,
+        "slope":  114
     }
 ]
