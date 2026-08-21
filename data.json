@@ -222,5 +222,89 @@
         "layout":  "28",
         "cr":  59,
         "slope":  114
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Dynekilen GK",
+        "layout":  "Gul",
+        "cr":  69.7,
+        "slope":  126
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Dynekilen GK",
+        "layout":  "Rød",
+        "cr":  65.2,
+        "slope":  117
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Dynekilen GK",
+        "layout":  "Gul",
+        "cr":  75.4,
+        "slope":  131
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Dynekilen GK",
+        "layout":  "Rød",
+        "cr":  69.4,
+        "slope":  118
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Strømstad GK",
+        "layout":  "Gul",
+        "cr":  69,
+        "slope":  124
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Strømstad GK",
+        "layout":  "Rød",
+        "cr":  65.4,
+        "slope":  111
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Strømstad GK",
+        "layout":  "Blå",
+        "cr":  67.2,
+        "slope":  115
+    },
+    {
+        "kjonn":  "Mann",
+        "bane":  "Strømstad GK",
+        "layout":  "Hvit",
+        "cr":  70.2,
+        "slope":  130
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Strømstad GK",
+        "layout":  "Gul",
+        "cr":  74.8,
+        "slope":  134
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Strømstad GK",
+        "layout":  "Rød",
+        "cr":  69.8,
+        "slope":  125
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Strømstad GK",
+        "layout":  "Blå",
+        "cr":  65.6,
+        "slope":  108
+    },
+    {
+        "kjonn":  "Dame",
+        "bane":  "Strømstad GK",
+        "layout":  "Hvit",
+        "cr":  72,
+        "slope":  131
     }
 ]
